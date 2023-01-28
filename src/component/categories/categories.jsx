@@ -2,7 +2,7 @@ import React from 'react'
 
 const categories = () => {
   return (
-    <div>categories</div>
+    <div id = 'categories'>categories</div>
   )
 }
 

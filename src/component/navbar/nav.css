@@ -28,7 +28,7 @@ body{
     width: 35%;
     margin-right: 4rem;
 }
-.nav_item{
+.nav_items a{
     /* color: white; */
     text-decoration: none;
 }

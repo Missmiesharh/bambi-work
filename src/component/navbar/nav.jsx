@@ -1,8 +1,9 @@
 import './nav.css'
 
-const nav = () => {
+const Nav = () => {
+  
   return (
-    <div >
+    <nav>
         <div className='container row'>
 
         <div className='logo_container'>
@@ -10,15 +11,15 @@ const nav = () => {
         </div>
 
         <div className='nav_items row ' >
-            <a href='/' className='nav_item' >Home</a>
-            <a href='#categories' className='nav_item'  >Categories</a>
-            <a href='#contact' className='nav_item' >Contact</a>
-            <a href='#about' className='nav_item' >About</a>
+            <a href='#' re>Home</a>
+            <a href='#categories' >Categories</a>
+            <a href='#contact' >Contact</a>
+            <a href='#about' >About</a>
         </div>
 
         </div>
-    </div>
+    </nav>
   )
 }
 
-export default nav
+export default Nav
