@@ -12,17 +12,15 @@ body{
     font-family: 'Lora', serif;
     line-height: 1rem;
 }
-h1, h2, h3, div{
-   margin-top:0px;
-
-}
-
 img{
     max-width: 100%;
 }
-.container{
-    margin: 2rem;
-    padding: .5em;
+.container{   
+    padding: 1.5em;
+    width: 80%;
+    margin: 0 auto;
+    /* added for nav-toggle positioning */
+    position: relative;
 }
 .row{
     display: flex;
@@ -30,8 +28,6 @@ img{
 }
 .home_container{
     position: relative;
-    top: -2em;
-    left: -2em;
     height: 65vh;
     width: 100%;
     background-image: url('https://images.pexels.com/photos/414110/pexels-photo-414110.jpeg');
@@ -42,9 +38,12 @@ img{
 }
 .sec1 {
     position: relative;
-    top: 6.5em;
+    top: 9.5em;
     text-align: center;
+    align-items: center;
 }
+
+
 .sec1_text h2{
     font-size: 50px;
     color: white;
@@ -67,7 +66,7 @@ img{
     font-weight: 400;
     font-size: 14px;
 }
-.sec2{   
+/* .sec2{   
     width: 100%;
     position: relative;
     top: -1.5em;
@@ -155,4 +154,4 @@ img{
 
 .featured-text {
     margin-top: 11em;
-}
+} */

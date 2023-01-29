@@ -6,7 +6,8 @@ const Home = () => {
     <>
       <div className='container home_container'>
         {<Navbar />}
-        <section className='sec1'>
+      </div>
+        {/* <section className='sec1'>
           <div className="sec1_text">
             <h2>Let's do it together. </h2>
             <p>We travel the world in search of stories. Come along for the ride. </p>
@@ -61,8 +62,8 @@ const Home = () => {
         </div>
 
           </div>
-        </div>
-      </section>
+        </div> */}
+      {/* </section> */}
 
     </>
 
