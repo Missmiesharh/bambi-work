@@ -1,9 +1,12 @@
-import React from 'react'
+import Navbar from '../navbar/Nav'
 
-const categories = () => {
+const Categories = () => {
   return (
-    <div id = 'categories'>categories</div>
+    <div>
+    {<Navbar />}
+    <h2>Categories</h2>
+</div>
   )
 }
 
-export default categories
+export default Categories

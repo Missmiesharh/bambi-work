@@ -1,21 +1,12 @@
-*, *::after, *::before {
-    box-sizing: border-box;
-    margin: 0;
-}
-body{
-    padding: 0;
-    font-size: 1rem;
-    line-height: 1.5rem;
+
+.nav_container{
+    z-index: 2;
+    color: white;
+    font-family: Lora, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
 }
 
-.container{
-    margin: 2rem;
-    padding: 0em;
-}
-.row{
-    display: flex;
-    justify-content: space-between;
-}
 .logo{
     font-size: 2em; 
     /* color: white; */
@@ -26,9 +17,16 @@ body{
 }
 .nav_items{
     width: 35%;
-    margin-right: 4rem;
+    margin-right: 7rem;
+    /* margin: 0 auto; */
+   
 }
-.nav_items a{
-    /* color: white; */
+.nav_item{
+    color: white;
+
     text-decoration: none;
+}
+
+@media screen (max-width: 1230px) {
+    
 }
