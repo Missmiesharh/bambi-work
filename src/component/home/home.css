@@ -18,6 +18,7 @@ img{
 .container{   
     padding: 1.5em;
     width: 80%;
+    align-items: center;
     margin: 0 auto;
     /* added for nav-toggle positioning */
     position: relative;
@@ -25,6 +26,7 @@ img{
 .row{
     display: flex;
     justify-content: space-between;
+   
 }
 .home_container{
     position: relative;
@@ -66,15 +68,15 @@ img{
     font-weight: 400;
     font-size: 14px;
 }
-/* .sec2{   
-    width: 100%;
+.sec2{   
+    /* width: 100%; */
     position: relative;
-    top: -1.5em;
+    /* top: -1.5em; */
 }
 .sec2::after{
     content: " ";
     position: absolute;
-    width: 100%;
+    width: 80%;
     border-bottom: 1px solid #e0e0e0;
     box-shadow:  2px 2px 5px #aaaaaa;
 }
@@ -83,7 +85,6 @@ img{
 }
 .sec2_item{    
     text-decoration: none;  
-    margin: 4rem; 
     text-align: center;
     color: #768088;;
 }
@@ -95,6 +96,7 @@ img{
 .sec2_items{
     display: flex;
     justify-content: center;
+    gap: 10em;
 }
 .sec3_text{
     text-align: center;
@@ -104,16 +106,16 @@ img{
     content: " ";
     border-bottom: 2px solid #768088;
     position: absolute;
-    width: 60px;
-   
+    width: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #243039;
 }
-
 .images{
    display: flex;
    justify-content: center;
 }
 .image{
-    width: 40%;
+    width:80%;
     position: static;
     left: 0px;
     top: 0px;
@@ -154,4 +156,16 @@ img{
 
 .featured-text {
     margin-top: 11em;
-} */
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .sec2_items{
+        display: flex;
+        justify-content: center;
+        gap: 3em;
+    }
+    .featured-text {
+        margin-top: 8em;
+    }
+}

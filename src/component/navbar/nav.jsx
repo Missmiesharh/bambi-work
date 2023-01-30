@@ -12,12 +12,12 @@ const Nav = () => {
   }
 
   return (
-    <header>
-      <div className='container nav_container row'>
+    <header className='container nav_container'>
+      
         <div className=' logo_container logo'>Escape. </div>
 
         <nav ref={navRef}>
-          <div className='nav_items row'>
+          <div className='nav_items'>
             <a href='/' className='nav_item'>Home</a>
             <a href='/categories' className='nav_item'>Categories</a>
             <a href='/contact' className='nav_item'>Contact</a>
@@ -31,7 +31,7 @@ const Nav = () => {
           <AiOutlineMenu/>
         </button>
 
-      </div>
+      
     </header>
   )
 
