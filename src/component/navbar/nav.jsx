@@ -12,7 +12,7 @@ const Nav = () => {
   }
 
   return (
-    <header className='container'>
+    <header className='container g'>
       <div className="nav_container">
         <div className='logo'>Escape. </div>
 

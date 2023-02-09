@@ -63,15 +63,18 @@ const Home = () => {
   ]
   return (
     <>
+    
       <div className='container home_container'>
         {<Navbar />}
 
-        <section className='sec1'>
-          <div className="sec1_text">
+        <section className='sec1 '>
+          <div className="r">
+            <div className="sec1_text">
             <h2>Let's do it together. </h2>
             <p>We travel the world in search of stories. Come along for the ride. </p>
           </div>
           <button type='button' className='btn'><a href='/'> View Latest Post </a></button>
+          </div>
         </section >
       </div>
 

@@ -91,15 +91,20 @@ footer{
         display: block;
         margin-top: 2em;
     }
+    .footer-content{
+        /* display: block; */
+        width: 100%;
+    }
     .nav_items{
         flex-direction: column;       
-        margin-top: 2em;
+        margin-top: 1em;
         text-align: center;
     }
     .submit-button{
         /* max-width: 70%; */
         width: 100%;
-        background-color: green;
+        text-align: center;
+        /* background-color: green; */
     }
     .logo{
     text-align: center;

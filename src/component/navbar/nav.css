@@ -1,4 +1,10 @@
+.g{
+    position: absolute;
+    top: 0;
+}
+
 .nav_container{
+    /* position: absolute; */
     z-index: 10;
     color: white;
     font-family: Lora, sans-serif;
@@ -51,8 +57,9 @@ header .nav-btn{
         flex-direction: column;
         gap: 1.5rem;
         transition: 1s;
-        transform: translateY(-100vh);
+        transform: translateY(-100%);
         background-color:  red;
+        z-index: 100;
 
     }
     nav .nav-close-btn{
@@ -83,8 +90,9 @@ header .nav-btn{
         flex-direction: column;
         gap: 1.5rem;
         transition: 1s;
-        transform: translateY(-100vh);
+        transform: translateY(-100%);
         background-color:  red;
+        z-index: 100;
 
     }
     nav .nav-close-btn{
