@@ -71,7 +71,7 @@ const Home = () => {
             <h2>Let's do it together. </h2>
             <p>We travel the world in search of stories. Come along for the ride. </p>
           </div>
-          <button type= 'button' className='btn'><a href ='/'> View Latest Post </a></button>
+          <button type='button' className='btn'><a href='/'> View Latest Post </a></button>
         </section >
       </div>
 
@@ -91,8 +91,8 @@ const Home = () => {
           <h1>Featured Posts</h1>
           <div className="med-divider"></div>
         </div>
-        
-        <div className="images sec2_items">
+
+        <div className="images ">
           <div className=" container image ">
             <div className="featured-text ">
               <h3>The Road Ahead</h3>
@@ -101,8 +101,8 @@ const Home = () => {
             <div className="featured-details ">
               <div className="author-info">
                 <div className="author-dets">
-                <img src="https://assets.website-files.com/5e4b1929fccc7f96f6de825d/5e4b1929fccc7ff9f8de8335_128-14.jpg" alt="" className="author-img" />
-                <div className="author-title lite">Mat Vogels</div>
+                  <img src="https://assets.website-files.com/5e4b1929fccc7f96f6de825d/5e4b1929fccc7ff9f8de8335_128-14.jpg" alt="" className="author-img thumb" />
+                  <div className="author-title lite">Mat Vogels</div>
                 </div>
                 <div className="thumbnail-date lite">September 25, 2015</div>
               </div>
@@ -116,11 +116,11 @@ const Home = () => {
               <p> Once a year, go someplace you've never been before</p>
             </div>
             <div className="featured-details ">
-              <div className="author-info">   
-              <div className="author-dets">           
-                <img src="https://assets.website-files.com/5e4b1929fccc7f96f6de825d/5e4b1929fccc7f7389de832c_128-34.jpg" alt="" className="author-img" />
-                <div className="author-title lite">William Wong</div>
-                </div>  
+              <div className="author-info">
+                <div className="author-dets">
+                  <img src="https://assets.website-files.com/5e4b1929fccc7f96f6de825d/5e4b1929fccc7f7389de832c_128-34.jpg" alt="" className="author-img thumb" />
+                  <div className="author-title lite">William Wong</div>
+                </div>
                 <div className="thumbnail-date lite">September 25, 2015</div>
               </div>
             </div>
@@ -141,21 +141,23 @@ const Home = () => {
                 return (
                   <article key={id} className='most_recent-items'>
                     <div className='most_recent-item'>
-                      <div className="info">
-                      <div className="new">
-                        <img src={image} alt='background pic' className='pic1' />                        
-                        <div className="info_text">
-                          <h3> {title}</h3>
-                          <p> {description}</p>
-                        </div>
-
-                        <div className="author-info">
-                          <div className="author-dets">
-                          <div><img src={author_image} alt=' ' className="author-img" /> </div>
-                          <div className="author-title lite"> {author_name}</div>
+                      <div className="info new">
+                        <div className="">
+                          <img src={image} alt='background pic' className='pic1 thumb' />
+                          <div className="info_text">
+                            <h3> {title}</h3>
+                            <p> {description}</p>
                           </div>
-                          <div className="thumbnail-date lite">{date}</div>
-                        </div>
+
+                          <div className="author-info">
+                            <div className="author-content">
+                            <div className="author-dets">
+                              <div><img src={author_image} alt=' ' className="author-img" /> </div>
+                              <div className="author-title lite"> {author_name}</div>
+                            </div>
+                            <div className="thumbnail-date lite">{date}</div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>

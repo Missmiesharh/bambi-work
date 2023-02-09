@@ -12,12 +12,13 @@ const Nav = () => {
   }
 
   return (
-    <header className='container nav_container'>
-      
-        <div className=' logo_container logo'>Escape. </div>
+    <header className='container'>
+      <div className="nav_container">
+        <div className='logo'>Escape. </div>
 
-        <nav ref={navRef}>
-          <div className='nav_items'>
+        <div className= 'nav_items2'>
+          <nav ref={navRef}>
+
             <a href='/' className='nav_item'>Home</a>
             <a href='/categories' className='nav_item'>Categories</a>
             <a href='/contact' className='nav_item'>Contact</a>
@@ -25,13 +26,15 @@ const Nav = () => {
             <button className="nav-btn nav-close-btn" onClick={showNav}>
               <FaTimes />
             </button>
-          </div>
-        </nav>
-        <button className="nav-btn" onClick={showNav}>
-          <AiOutlineMenu/>
-        </button>
 
-      
+          </nav>
+          <button className="nav-btn" onClick={showNav}>
+          <AiOutlineMenu />
+        </button>
+        </div>
+        
+      </div>
+
     </header>
   )
 
