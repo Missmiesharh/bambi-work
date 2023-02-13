@@ -1,0 +1,98 @@
+.categories_container{
+    position: static;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://assets.website-files.com/5e4b1929fccc7f2575de825e/5e4b1929fccc7f8412de82c5_photo-1413977886085-3bbbf9a7cf6e.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-bottom: 0em;
+    color: #fff;
+    font-size: 25px;
+    /* font-weight: 100; */
+}
+img{
+    max-width: 100%;
+    /* width: 80%; */
+}
+
+.section2{
+    padding: 6em;
+ 
+}
+.s2-item{
+    position: relative;
+    overflow: hidden;
+    height: 180px;
+    padding: 60px 30px 30px;
+    border-radius: 3px;
+    background-image: url('https://assets.website-files.com/5e4b1929fccc7f96f6de825d/5e4b1929fccc7f438dde8345_photo-1433890070408-084b6b305d72.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    color: #fff;
+    font-size: 23px;
+    text-align: center;
+    text-decoration: none;
+}
+.b{
+    background-image: url('https://assets.website-files.com/5e4b1929fccc7f96f6de825d/5e4b1929fccc7f4bf8de834b_photo-1416949929422-a1d9c8fe84af.jpg');
+
+}
+.c{
+    background-image: url('https://assets.website-files.com/5e4b1929fccc7f96f6de825d/5e4b1929fccc7f28dade833e_photo-1436916154952-3aeb6d98001a.jpg');
+
+}
+.d{
+    background-image: url('https://assets.website-files.com/5e4b1929fccc7f96f6de825d/5e4b1929fccc7f366dde8337_photo-1440558899941-2b58b4b0e6ad.jpg');
+
+}
+.e{
+    background-image: url('https://assets.website-files.com/5e4b1929fccc7f96f6de825d/5e4b1929fccc7f772dde8339_photo-1437846972679-9e6e537be46e.jpg');
+
+}
+.f{
+    background-image: url('https://assets.website-files.com/5e4b1929fccc7f96f6de825d/5e4b1929fccc7f53a5de833c_photo-1436285122087-89584a1d9398.jpg');
+
+}
+
+.s2-items{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    gap: 2em;
+    /* margin-top: 4em; */
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .s2-items{
+        display: grid;
+        grid-template-columns:  1fr ;
+        gap: 2em;
+    }
+
+    .section2{
+        padding: 0em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+/* .s2-item{
+    position: relative;
+    overflow: hidden;
+    height: 180px;
+    padding: 60px 30px 30px;
+    border-radius: 3px;
+    background-image: url('https://assets.website-files.com/5e4b1929fccc7f96f6de825d/5e4b1929fccc7f438dde8345_photo-1433890070408-084b6b305d72.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    color: #fff;
+    font-size: 23px;
+    text-align: center;
+    text-decoration: none;
+} */
+    
+}

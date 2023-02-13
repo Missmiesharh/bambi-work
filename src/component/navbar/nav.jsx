@@ -21,8 +21,8 @@ const Nav = () => {
 
             <a href='/' className='nav_item'>Home</a>
             <a href='/categories' className='nav_item'>Categories</a>
-            <a href='/contact' className='nav_item'>Contact</a>
             <a href='/about' className='nav_item' >About</a>
+            <a href='/contact' className='nav_item'>Contact</a>
             <button className="nav-btn nav-close-btn" onClick={showNav}>
               <FaTimes />
             </button>

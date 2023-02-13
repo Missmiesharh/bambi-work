@@ -1,11 +1,15 @@
 import Navbar from '../navbar/Nav'
+import './about.css'
 
 const About = () => {
   return (
-    <div>
-    {<Navbar />}
-    <h2>about</h2>
-</div>
+    <>
+      <div className='about_container'>
+        {<Navbar />}
+        <h2>We love writing</h2> 
+      </div>
+    </>
+   
   )
 }
 

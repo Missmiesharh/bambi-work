@@ -113,7 +113,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="container image2">
+          <div className="container image image2">
             <div className="featured-text">
               <h3>From Top Down</h3>
               <p> Once a year, go someplace you've never been before</p>
