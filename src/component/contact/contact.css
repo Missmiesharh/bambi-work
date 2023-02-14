@@ -18,17 +18,20 @@
 .l{
     display: flex;
     align-items: center;
-    gap: .5em;
+    gap: 1.5em;
 }
 .connect{
-    margin-top: 0;
+    margin-top: 0em;
     width: 50%;
     line-height: 28px;
+    margin-bottom: 2em;
+    font-size: 20px;
     /* border: 2px solid red; */
 }
 .form{
     margin-top: 0;
     width: 55%;
+    /* margin-bottom: 0em; */
 }
 
 label , input{
@@ -54,6 +57,10 @@ textarea{
     color: #e5e5e5;
     border-radius: 4px;
     font-size: 16px;
+}
+
+.mid{
+    padding: 4em;
 }
 
 
