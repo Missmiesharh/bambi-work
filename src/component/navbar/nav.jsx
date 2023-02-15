@@ -19,10 +19,10 @@ const Nav = () => {
         <div className= 'nav_items2'>
           <nav ref={navRef}>
 
-            <a href='/' className='nav_item'>Home</a>
-            <a href='/categories' className='nav_item'>Categories</a>
-            <a href='/about' className='nav_item' >About</a>
-            <a href='/contact' className='nav_item'>Contact</a>
+            <a href='/' className='nav_item'>HOME</a>
+            <a href='/categories' className='nav_item'>CATEGORIES</a>
+            <a href='/about' className='nav_item' >ABOUT</a>
+            <a href='/contact' className='nav_item'>CONTACT</a>
             <button className="nav-btn nav-close-btn" onClick={showNav}>
               <FaTimes />
             </button>
